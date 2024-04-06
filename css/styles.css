@@ -37,7 +37,9 @@ header,body,footer{
   padding: 5px;
 }
 
-.b1{color: aquamarine;}
+.b1{
+  color: aquamarine;
+}
 
 a:hover{
   color: aqua;
