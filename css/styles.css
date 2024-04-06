@@ -27,5 +27,8 @@ p{
     color: black;
     opacity: 50%;
   }
-  
+
+header,body,footer{
+  padding: 5px;
+}
   
