@@ -1,34 +1,55 @@
 p{
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(255, 255, 255);
-  }
-  
-  body{
-    background-color: rgb(145, 145, 206);
-    overflow-y: scroll;
-  }
-  
-  picture{
-    position: absolute;
-    top: 0px;
-    right: 20px;
-  
-  }
-  header{
-    color: rgb(255, 3, 3);
-  }
-  .footer{
-    position: fixed;
-    margin-left: 50%;
-    margin-right: 50%;
-    bottom: 0;
-    background-color: red;
-    text-align: center;
-    color: black;
-    opacity: 50%;
-  }
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(255, 255, 255);
+}
+
+body{
+  background-color: rgb(145, 145, 206);
+  color: #09373b;
+  overflow-y: scroll;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+picture{
+  position: absolute;
+  top: 40px;
+  right: 345px;
+
+}
+header{
+  color: rgb(255, 3, 3);
+}
+.footer{
+  position: fixed;
+  left: 35%;
+  right: 35%;
+  bottom: 0;
+  width: 30%;
+  background-color: red;
+  text-align: center;
+  color: black;
+  opacity: 50%;
+  margin: auto 0;
+}
 
 header,body,footer{
   padding: 5px;
 }
-  
+
+.b1{color: aquamarine;}
+
+a:hover{
+  color: aqua;
+  background-color: blueviolet;
+
+}
+
+button:active{
+  background-color: blueviolet;
+  color: aqua;
+}
+
+img{
+  border-radius: 18px;
+}
