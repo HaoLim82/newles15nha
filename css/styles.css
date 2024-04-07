@@ -37,21 +37,36 @@ header,body,footer{
   padding: 5px;
 }
 
-.b1{
-  color: rgb(127,255,212);
-}
+.b1{color: aquamarine;}
 
-a:hover{
-  color: rgb(0,255,255);
-  background-color: rgb(138,43,226);
-
-}
 
 button:active{
-  background-color: rgb(138,43,226);
-  color: rgb(0,255,255);
+  background-color: blueviolet;
+  color: aqua;
 }
 
 img{
   border-radius: 18px;
+}
+
+ul a {
+  color: rgb(0,255,255);
+  text-decoration: none;
+}
+
+.tab{
+  display:inline-block;
+  height: 22px;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  color: rgb(255,255,255);
+  border-left: 2px rgb(145, 145, 206);
+  border-right: 2px rgb(145, 145, 206);
+  background-color: rgb(220, 39, 39);
+}
+
+.tab:hover{
+  background-color: blueviolet;
+  border-style: none;
 }
